@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "", allowedHeaders = "")
+@CrossOrigin(origins = "*")
 public class FoodControllerPost{
 	@Autowired
 	MenuService menuService;
