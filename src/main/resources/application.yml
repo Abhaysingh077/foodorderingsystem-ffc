@@ -1,0 +1,11 @@
+#Spring:
+# datasource:
+  # url: jdbc:sqlserver://shivaserver-1.database.windows.net:1433;database=shiva;user=shiva@shivaserver-1;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+  
+ # jpa:
+    #3show-sql: true
+   # hibernate:
+     # ddl-auto: update
+     
+#server:
+ # port: 8081
